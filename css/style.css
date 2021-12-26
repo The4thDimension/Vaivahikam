@@ -1,0 +1,176 @@
+@media only screen and (min-height: 600px){
+    header{
+        position: fixed;
+        opacity: .9;
+    }
+}
+
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+
+    font-family: 'Source Sans Pro', sans-serif;
+    /* background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+}
+
+main{
+
+    margin: 0;
+    padding: 0;
+
+}
+header{
+
+    background-color: #FFEBEE;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 9;
+    width: 100%;
+    opacity: .9;
+
+}
+
+header .heading{
+
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+
+}
+
+header .heading h1{
+
+    color: rgb(112, 8, 8);
+    padding: 20px 10px 20px 20px;
+
+}
+
+header .heading .button{
+
+    width: 30px;
+    margin: 1.6em 0 1em 0;
+    display: block;
+    transition: .5s;
+
+}
+
+header .heading .button div{
+
+    background-color: rgb(112, 8, 8);
+    height: 4px;
+    margin: 5px 5px;
+    border-radius: 25px;
+    transition: .5s;
+    
+}
+
+#one{
+
+    width: 30px;
+
+}
+
+#two{
+
+    width: 15px;
+
+}
+
+#three{
+
+    width: 20px;
+
+}
+
+.button:hover #two, .button:hover #one, .button:hover #three{
+
+    width: 30px;
+    background-color: #000;
+    
+}
+
+header .head{
+
+    padding: 25px;
+
+}
+
+header .head .link{
+
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+header .head .link a{
+
+    text-decoration: none;
+    color: #000;
+    /* border-radius: 25px; */
+    /* margin: 10px; */
+    /* padding: 10px 15px; */
+    transition: 1s;
+    /* font-size: 1.2em; */
+    /* text-align: center; */
+    margin: auto;
+    
+}
+
+header .head .link .link1{
+
+    background-color: #FFEBEE;
+    width: 10px;
+    height: 4px;
+    /* margin-left: 10px; */
+    /* padding: px; */
+    /* display: inline-block; */
+    transition: 1s;
+}
+
+header .head .link:hover .link1{
+
+    width: 100%;
+    background-color: rgb(112, 8, 8);
+
+}
+header .head .active{
+
+    color: #000;
+}
+
+header .head a:hover{
+
+    /* color: #004D40; */
+    /* background-color: #FFD740; */
+    border-radius: 25px;
+    color: rgb(112, 8, 8);
+    /* text-decoration: underline; */
+
+}
+
+
+
+main{
+
+    background-color: #1DE9B6;
+    display: flex;
+    justify-content: center;
+
+}
+
+main img{
+
+    z-index: 0;
+    /* opacity: .5; */
+    width: 100%;
+
+}

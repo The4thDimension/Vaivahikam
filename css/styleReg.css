@@ -1,0 +1,25 @@
+header{
+
+    background-color: rgb(112, 8, 8);
+
+}
+
+header .heading h1{
+
+    color: #fff;
+
+}
+
+header .heading .button div{
+
+    background-color: #fff;
+
+}
+
+.button:hover #two, .button:hover #one, .button:hover #three{
+
+    width: 30px;
+    background-color: #C62828;
+    
+}
+
